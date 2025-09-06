@@ -1,3 +1,4 @@
+word = "Sit on a potato pan, Otis."
 
 def palindrome (word):
     clean = word.replace(",","").replace(".","").replace(" ","").lower()
@@ -7,6 +8,8 @@ def palindrome (word):
         return False
 
 palindrome(word)
+
+string = ")((())"
 
 def parenthesis_balance(string):
     count = 0
