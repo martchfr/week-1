@@ -9,11 +9,11 @@ def palindrome (word):
 
 palindrome(word)
 
-string = ")((())"
+sequence = ")((())"
 
-def parenthesis_balance(string):
+def parenthesis(sequence):
     count = 0
-    for char in string:
+    for char in sequence:
         if char == "(":
             count += 1
         elif char == ")":
@@ -21,4 +21,4 @@ def parenthesis_balance(string):
             if count < 0:
                 return False
 
-parenthesis_balance(string)
+parenthesis(sequence)
