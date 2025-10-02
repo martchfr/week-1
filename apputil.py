@@ -11,7 +11,7 @@ palindrome(word)
 
 sequence = ")((())"
 
-def parenthesis(sequence):
+def parentheses(sequence):
     count = 0
     for char in sequence:
         if char == "(":
@@ -21,4 +21,4 @@ def parenthesis(sequence):
             if count < 0:
                 return False
 
-parenthesis(sequence)
+parentheses(sequence)
