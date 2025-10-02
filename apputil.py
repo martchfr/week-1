@@ -20,5 +20,8 @@ def parentheses(sequence):
             count -= 1
             if count < 0:
                 return False
-
+            
+    if count == 0:
+        return True
+    
 parentheses(sequence)
